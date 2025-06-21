@@ -92,7 +92,7 @@ const navItems = [
         <div className="h-screen bg-white [background:radial-gradient(125%_125%_at_100%_10%,#3FA759_40%,#FAFC98_100%)] flex flex-col justify-center items-center ">
             <div className='flex-col flex justify-center items-center gap-2.5'>
                 <div className='flex-col flex justify-center items-center gap-2'>
-                    <h1 ref={textItem} className='font-plus-jakarta max-w-2xl mb-4 text-4xl font-extrabold tracking-tight  md:text-6xl xl:text-8xl text-center md:leading-20 opacity-0'>Unlock faster learning an student efficiency </h1>
+                    <h1 ref={textItem} className='font-plus-jakarta max-w-2xl mb-4 text-4xl font-extrabold tracking-tight  md:text-5xl text-center md:leading-20 opacity-0'>Unlock faster learning an student efficiency </h1>
                     <span className='flex gap-2 items-center'>
                         <p className='font-plus-jakarta italic'>with</p>
                         <img src={logo} alt="" className='w-32'/> 
