@@ -108,7 +108,7 @@ const navItems = [
         
         <div className=" h-auto flex flex-col items-center gap-8 pb-10">
             <div className='mt-8'>
-            <h2 className='font-plus-jakarta max-w-2xl mb-4 text-3xl font-medium tracking-tight  md:text-5xl xl:text-7xl text-center md:leading-20'>
+            <h2 className='font-plus-jakarta max-w-2xl mb-4 text-3xl font-medium tracking-tight  md:text-5xl text-center md:leading-20'>
             Your personalized study AI
             </h2>
             </div>
