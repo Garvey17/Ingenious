@@ -89,7 +89,7 @@ const navItems = [
             </div>
         </nav>
         
-        <div className="h-screen bg-white [background:radial-gradient(125%_125%_at_100%_10%,#3FA759_40%,#FAFC98_100%)] flex flex-col justify-center items-center ">
+        <div className="md:h-screen h-[75vh] bg-white [background:radial-gradient(125%_125%_at_100%_10%,#3FA759_40%,#FAFC98_100%)] flex flex-col justify-center items-center ">
             <div className='flex-col flex justify-center items-center gap-2.5'>
                 <div className='flex-col flex justify-center items-center gap-2'>
                     <h1 ref={textItem} className='font-plus-jakarta max-w-2xl mb-4 text-4xl font-extrabold tracking-tight  md:text-5xl text-center md:leading-20 opacity-0'>Unlock faster learning an student efficiency </h1>
@@ -132,7 +132,7 @@ const navItems = [
             <button className='font-plus-jakarta bg-[#3FA759] hover:bg-[#5da970] duration-200 py-2 px-3 font-medium rounded-full cursor-pointer'>Check it out</button>
         </div>
         
-        <div className='md:h-screen h-screen bg-[#CFDCE1] flex flex-col justify-center items-center gap-4 md:gap-9'>
+        <div className='md:h-screen h-auto py-8 bg-[#CFDCE1] flex flex-col justify-center items-center gap-4 md:gap-9'>
             <div className='flex flex-col md:flex-row justify-center items-center gap-6'>
                 <div className='md:w-[35vw] flex flex-col items-center'>
                     <h1 className='font-plus-jakarta max-w-2xl mb-4 text-3xl font-extrabold tracking-tight  md:text-4xl xl:text-5xl  md:leading-20 md:text-left text-center'>A calendar so you never miss a deadline again.</h1>
