@@ -39,8 +39,10 @@ const navItems = [
         gsap.from('#box', {
           scrollTrigger: {
             trigger: '#box',
-            start: 'top 90%',
-            scrub: true
+            start: 'top 70%',
+            end: 'center center',
+            scrub: true,
+            markers:true
           },
           x: 450,
           opacity: 1,
@@ -53,8 +55,8 @@ const navItems = [
         gsap.from("#button", {
             scrollTrigger: {
                 trigger: "#button",
-                start: 'top bottom',
-                end: 'bottom center',
+                start: 'top 70%',
+               
 
             },
             y: 50,
