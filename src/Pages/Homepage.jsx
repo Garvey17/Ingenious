@@ -40,6 +40,7 @@ const navItems = [
           scrollTrigger: {
             trigger: '#box',
             start: 'top 90%',
+            scrub: true
           },
           x: 450,
           opacity: 1,
@@ -52,11 +53,13 @@ const navItems = [
         gsap.from("#button", {
             scrollTrigger: {
                 trigger: "#button",
-                start: 'top 90%',
+                start: 'top bottom',
+                end: 'bottom center',
+
             },
             y: 50,
             opacity: 1,
-            duration: 1.5,
+            duration: 1,
             ease: 'power2.inOut',
         })
       }, [])
