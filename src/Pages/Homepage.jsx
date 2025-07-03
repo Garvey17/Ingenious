@@ -42,7 +42,6 @@ const navItems = [
             start: 'top 70%',
             end: 'center center',
             scrub: true,
-            markers:true
           },
           x: 450,
           opacity: 1,
